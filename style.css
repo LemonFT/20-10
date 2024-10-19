@@ -157,7 +157,7 @@ body {
 .line-box {
     position: absolute;
     width: auto;
-    bottom: -1px;
+    bottom: -3px;
     height: 5px;
     display: flex;
     justify-content: center;
