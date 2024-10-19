@@ -140,6 +140,9 @@ body {
 
 .car-box {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 200px;
     overflow: hidden;
@@ -150,17 +153,10 @@ body {
     height: max-content;
 }
 
-.car {
-    position: absolute;
-    bottom: 20px;
-    left: 50px;
-    width: 100px;
-}
-
 .line-box {
     position: absolute;
     width: auto;
-    bottom: 17px;
+    bottom: -1px;
     height: 5px;
     display: flex;
     justify-content: center;
@@ -176,11 +172,11 @@ body {
 
 @keyframes moveLine {
     0% {
-        transform: translateX(-30%);
+        transform: translateX(30%);
     }
 
     99% {
-        transform: translateX(-60%);
+        transform: translateX(-40%);
     }
 
     100% {
@@ -200,34 +196,42 @@ body {
 
 .line-street:nth-child(3) {
     width: 600px;
+    margin-left: 40px;
 }
 
 .line-street:nth-child(4) {
     width: 100px;
+    margin-left: 80px;
 }
 
 .line-street:nth-child(5) {
     width: 900px;
+    margin-left: 100px;
 }
 
 .line-street:nth-child(6) {
     width: 200px;
+    margin-left: 200px;
 }
 
 .line-street:nth-child(7) {
-    width: 300px;
+    width: 200px;
+    margin-left: 80px;
 }
 
 .line-street:nth-child(8) {
-    width: 600px;
+    width: 100px;
+    margin-left: 180px;
 }
 
 .line-street:nth-child(9) {
-    width: 900px;
+    width: 300px;
+    margin-left: 20px;
 }
 
 .line-street:nth-child(10) {
-    width: 1300px;
+    width: 200px;
+    margin-left: 80px;
 }
 
 .heart-container {
